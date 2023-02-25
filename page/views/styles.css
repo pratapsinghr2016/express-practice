@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: green;
+  font-weight: 600;
+}
+
+header {
+  min-width: 100%;
+  background-color: cyan;
+  color: white;
+  padding: 3rem 0rem 3rem 0rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 3rem 0rem 3rem 0rem;
+}
+
+.main {
+  padding: 5rem 0rem 0rem 5rem;
+  min-height: 100vh;
+  background-color: pink;
+}
